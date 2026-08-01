@@ -1,7 +1,29 @@
 aid: springrole
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/springrole.png
 name: SpringRole
-description: SpringRole is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SpringRole was a blockchain-based professional reputation and attestation
+  platform — an endorsement and verified-resume network that let people attest
+  to each other's skills and work history on-chain — and was a portfolio company
+  of Bloomberg Beta. Its primary domain, springrole.com, now issues a 301
+  redirect to Springworks (springworks.in), an HR-technology company whose
+  products include SpringVerify (background verification), Goodfit (AI-native
+  recruitment), and EngageWith (employee engagement). An enrichment pass on
+  2026-07-21 found no public developer API, OpenAPI/AsyncAPI specification,
+  developer portal, SDK/package, MCP server, llms.txt, or /.well-known discovery
+  documents for SpringRole (the well-known paths return the Webflow marketing
+  SPA, not real artifacts), and no separate developer or docs subdomain resolves.
 url: https://raw.githubusercontent.com/api-evangelist/springrole/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,20 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: >-
+  springrole.com 301-redirects to springworks.in as of the 2026-07-21 pass; no
+  standalone API surface was discoverable for the SpringRole brand.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Blockchain
+- Professional Reputation
+- Attestation
+- Web3
+- Recruiting
+- HR
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,10 @@ maintainers:
 common:
 - type: Website
   url: https://springrole.com
+- type: DomainSecurity
+  url: security/springrole-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
