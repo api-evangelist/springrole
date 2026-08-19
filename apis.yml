@@ -34,7 +34,7 @@ x-tier-reason: portfolio-lead
 x-note: >-
   springrole.com 301-redirects to springworks.in as of the 2026-07-21 pass; no
   standalone API surface was discoverable for the SpringRole brand.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
