@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://springrole.com', status: 301, note: 'declared website redirects to https://www.springworks.in/ — a different registrable domain (springrole.com -> springworks.in), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/springrole.png
 name: SpringRole
 description: >-
